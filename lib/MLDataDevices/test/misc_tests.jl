@@ -221,7 +221,7 @@ end
 end
 
 @testset "Zygote and ChainRules OneElement" begin
-    # Issue #91
+    # Issue #1016
     using Zygote
     cpu = cpu_device()
     gpu = gpu_device()
